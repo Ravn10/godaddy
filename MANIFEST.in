@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include godaddy *.css
+recursive-include godaddy *.csv
+recursive-include godaddy *.html
+recursive-include godaddy *.ico
+recursive-include godaddy *.js
+recursive-include godaddy *.json
+recursive-include godaddy *.md
+recursive-include godaddy *.png
+recursive-include godaddy *.py
+recursive-include godaddy *.svg
+recursive-include godaddy *.txt
+recursive-exclude godaddy *.pyc
